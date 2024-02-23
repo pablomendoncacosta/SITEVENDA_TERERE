@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+:root{
+    --verde-escuro:#36402F;
+    --verde-claro:#D7F205;
+    --amarelo-claro:#EEF277;
+    --amarelo-escuro:#F2E205;
+    --marron:#A6771F;
+    --preto:#0000;
+    --branco:#f4f4f4;
+}
+body{
+    background: var(--branco);
+
+}
+/*CABEÇALHO*/
+.cabecalho{
+    background-color: var(--marron);
+    color:var(--branco);
+}
+.cabecalho_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.cabecalho_menu{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.material-symbols-outlined{
+    margin-right: 10px;
+}
+.cabecalho_menu-texto{
+    font-size: 1.0em;
+    font-weight: bold;
+}
+.cabecalho_carrinho{
+    display: flex;
+    align-items: center;
+}
+.cabecalho_pesquisa{
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.623);
+}
+.cabecalho_pesquisa::placeholder{
+    background: url(../imagem/Lupa.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    color: var(--branco);
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    padding: 1px;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+                         /* Ajuste o tamanho conforme necessário */
+}
+
+.carousel-container {
+    
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.setaleft{
+    text-align: center;
+    padding: 2px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    transform: translate(-45px,-350px);
+    border-radius: 50%;
+    text-align: center;
+    padding-right: 4px;
+    border: none;
+    background: var(--amarelo-claro);
+}
+.setaright{
+    text-align: center;
+    padding: 2px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    transform: translate(285px,-350px);
+    border-radius: 50%;
+    text-align: center;
+    padding-right: 4px;
+    border: none;
+    background: var(--amarelo-claro);
+}
