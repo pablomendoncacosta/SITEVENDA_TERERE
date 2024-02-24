@@ -24,3 +24,11 @@ function autoSlide() {
 
 // Configurar auto avanço a cada 3 segundos (ajuste conforme necessário)
 setInterval(autoSlide, 5000);
+var men = document.querySelector(".menu");
+function menu(){
+    if(men.style.display=="block"){
+        men.style.display ="none"
+    }else{
+        men.style.display="block"
+    }
+}

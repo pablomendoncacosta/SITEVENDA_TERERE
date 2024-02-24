@@ -17,9 +17,14 @@
 }
 body{
     background: var(--branco);
-
 }
 /*CABEÇALHO*/
+.link{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1.0em;
+    font-weight: bold;
+}
 .cabecalho{
     background-color: var(--marron);
     color:var(--branco);
@@ -68,11 +73,9 @@ body{
 .carousel {
     display: flex;
     overflow: hidden;
-                         /* Ajuste o tamanho conforme necessário */
 }
 
 .carousel-container {
-    
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
@@ -103,10 +106,37 @@ body{
     position: relative;
     top: 50px;
     left: 50px;
-    transform: translate(275px,-350px);
+    transform: translate(245px,-350px);
     border-radius: 50%;
     text-align: center;
-    padding-right: 4px;
     border: none;
     background: var(--amarelo-claro);
+}
+
+.central_logo{
+    background-color: var(--marron);
+    width: 100vw;
+    margin-top: -35px;
+}
+.central_logo-h1{
+    color: var(--branco);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.menu{
+    display: none;
+    background-color: var(--verde-escuro);
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 50%;
+    height: 100vh;
+    transform: translate(-50px,-598px);
+}
+.menu_lista{
+    padding: 4px;
+}
+.menu_link {
+    margin-top: 30px;
 }
