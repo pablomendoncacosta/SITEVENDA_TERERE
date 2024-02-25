@@ -135,7 +135,7 @@ body{
     position: absolute;
     top: 50px;
     left: 50px;
-    width: 35%;
+    width: 40%;
     height: 100%;
     transform: translate(-50px,-07px);
     transition: width 5s ease-in-out;
@@ -146,7 +146,26 @@ body{
 .menu_lista-li{
     margin-top: 10px;
 }
-
+.menu_link-login{
+    background: url("../imagem/person.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    color: var(--branco);
+    font-weight: bold;
+    text-align: left;
+    padding-left: 25px;
+}
+.menu_link-atendimento{
+    background: url("../imagem/atendimento.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    color: var(--branco);
+    font-weight: bold;
+    text-align: left;
+    padding-left: 25px;
+}
 /*CARRINHO*/
 .carrinho{
     display: none;
