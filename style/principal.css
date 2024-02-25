@@ -151,13 +151,13 @@ body{
 .carrinho{
     display: none;
     background-color: var(--verde-escuro);
-    width: 80%;
     border-radius: 10px;
     box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.452);
     position: absolute;
-    top: 50;
+    top: 50px;
     left: 50px;
-    transform: translate(35px,-442px);
+    width: 80%;
+    transform: translate(35px,-07px);
 
 }
 .carrinho_texto{
