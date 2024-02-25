@@ -118,7 +118,7 @@ body{
 .central_logo{
     background-color: var(--marron);
     width: 100vw;
-    margin-top:-31px;
+
 }
 .central_logo-h1{
     color: var(--branco);
