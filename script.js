@@ -25,10 +25,20 @@ function autoSlide() {
 // Configurar auto avanço a cada 3 segundos (ajuste conforme necessário)
 setInterval(autoSlide, 5000);
 var men = document.querySelector(".menu");
+var card = document.querySelector(".carrinho");
 function menu(){
     if(men.style.display=="block"){
         men.style.display ="none"
+        
     }else{
         men.style.display="block"
+    }
+}
+function carrinho(){
+    if(card.style.display=="block"){
+        card.style.display ="none"
+    }else{
+        card.style.display="block"
+        
     }
 }
