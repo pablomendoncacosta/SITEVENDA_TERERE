@@ -1,0 +1,404 @@
+
+
+@media screen and (min-width:768px ) and (max-width: 992px ){
+    .cabecalho_menu-texto{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .cabecalho_pesquisa{
+        width: 180%;
+        padding: 5px;
+    }
+    .cabecalho_pesquisa::placeholder{
+        background: url(../imagem/Lupa.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        background-size: 8%;
+        color: var(--branco);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        padding: 2px;
+    }
+    .carrinho{
+        transform: translate(105px,-07px);
+    }
+    .carrinho_texto-h1{
+    
+        font-size: 1.5em;
+      
+    }
+    .carrinho_subtotal-a{
+        font-size: 1.5em;
+    }
+    .material-symbols-outlined{
+        font-size: 1.7em;
+    }
+    .menu{
+        width: 35%;
+        transform: translate(-50px, 02px);
+    }
+    .menu_link-login{
+        background: url("../imagem/person.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        color: var(--branco);
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .menu_link-atendimento{
+        background: url("../imagem/atendimento.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        color: var(--branco);
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .menu_link-pedidos{
+        background: url("../imagem/menu.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        color: var(--branco);
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+
+.produtos{
+    margin: 10px 0;
+}
+.produtos_caixa{
+    display: flex;
+    justify-content: space-around;
+    width: 200vw;
+    overflow-x: scroll;
+    margin-top: 20px;
+    padding-left:5px;
+}
+.produto_banca{
+    display: block;
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    margin-right: 20px;
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    text-transform:uppercase;
+}
+.produto_banca-imagem{
+    width: 100%;
+}
+.produto_banca-h1{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.produto_banca-p{
+    margin: 5px 0;
+    font-size: 1.5em;
+}
+.produto_banca-button{
+    background-color: var(--verde-claro);
+    color: var(--verde-escuro);
+    font-size: 1.5em;
+    padding: 4px;
+}
+.roda_pe-h1{
+    font-size: 2em;
+}
+.rede_social-imagem{
+    width: 10%;
+    margin: auto;
+}
+.mapa_inframe{
+    height: 150px;
+    width: 250px;
+}
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .cabecalho_menu-texto{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .cabecalho_pesquisa{
+        width: 180%;
+        padding: 5px;
+    }
+    .cabecalho_pesquisa::placeholder{
+        background: url(../imagem/Lupa.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        background-size: 8%;
+        color: var(--branco);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        padding: 2px;
+    }
+    .carrinho{
+        transform: translate(145px,0px);
+    }
+    .carrinho_texto-h1{
+    
+        font-size: 1.5em;
+      
+    }
+    .carrinho_subtotal-a{
+        font-size: 1.5em;
+    }
+    .material-symbols-outlined{
+        font-size: 1.7em;
+    }
+    .menu{
+        width: 35%;
+        transform: translate(-50px, 02px);
+    }
+    .menu_link-login{
+        background: url("../imagem/person.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        color: var(--branco);
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .menu_link-atendimento{
+        background: url("../imagem/atendimento.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        color: var(--branco);
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .menu_link-pedidos{
+        background: url("../imagem/menu.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        color: var(--branco);
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+
+.produtos{
+    margin: 10px 0;
+}
+.produtos_caixa{
+    display: flex;
+    justify-content: space-around;
+    width: 200vw;
+    overflow-x: scroll;
+    margin-top: 20px;
+    padding-left:5px;
+}
+.produto_banca{
+    display: block;
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    margin-right: 20px;
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    text-transform:uppercase;
+}
+.produto_banca-imagem{
+    width: 100%;
+}
+.produto_banca-h1{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.produto_banca-p{
+    margin: 5px 0;
+    font-size: 1.5em;
+}
+.produto_banca-button{
+    background-color: var(--verde-claro);
+    color: var(--verde-escuro);
+    font-size: 1.5em;
+    padding: 4px;
+}
+.roda_pe-h1{
+    font-size: 2em;
+}
+.rede_social-P{
+    font-size: 2em;
+}
+.rede_social-imagem{
+    width: 15%;
+    margin: auto;
+}
+.mapa_inframe{
+    height: 200px;
+    width: 350px;
+}
+}
+@media screen and (min-width:1200px){
+    .cabecalho_menu-texto{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .cabecalho_pesquisa{
+        width: 180%;
+        padding: 5px;
+    }
+    .cabecalho_pesquisa::placeholder{
+        background: url(../imagem/Lupa.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        background-size: 8%;
+        color: var(--branco);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        padding: 2px;
+    }
+    .carrinho{
+        transform: translate(145px,0px);
+    }
+    .carrinho_texto-h1{
+    
+        font-size: 1.5em;
+      
+    }
+    .carrinho_subtotal-a{
+        font-size: 1.5em;
+    }
+    .material-symbols-outlined{
+        font-size: 1.7em;
+    }
+    .menu{
+        width: 35%;
+        transform: translate(-50px, 02px);
+    }
+    .menu_link-login{
+        background: url("../imagem/person.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        color: var(--branco);
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .menu_link-atendimento{
+        background: url("../imagem/atendimento.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        color: var(--branco);
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .menu_link-pedidos{
+        background: url("../imagem/menu.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        color: var(--branco);
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+
+.produtos{
+    margin: 10px 0;
+}
+.produtos_caixa{
+    display: flex;
+    justify-content: space-around;
+    width: 200vw;
+    overflow-x: scroll;
+    margin-top: 20px;
+    padding-left:5px;
+}
+.produto_banca{
+    display: block;
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    margin-right: 20px;
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    text-transform:uppercase;
+}
+.produto_banca-imagem{
+    width: 100%;
+}
+.produto_banca-h1{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.produto_banca-p{
+    margin: 5px 0;
+    font-size: 1.5em;
+}
+.produto_banca-button{
+    background-color: var(--verde-claro);
+    color: var(--verde-escuro);
+    font-size: 1.5em;
+    padding: 4px;
+}
+.roda_pe-h1{
+    font-size: 2em;
+}
+.rede_social-P{
+    font-size: 2em;
+}
+.rede_social-imagem{
+    width: 15%;
+    margin: auto;
+}
+.mapa_inframe{
+    height: 200px;
+    width: 350px;
+}
+
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    display: block;
+    height: 100vh;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.carousel-item > img{
+    background-size: cover;
+    width: 100%;
+}
+}

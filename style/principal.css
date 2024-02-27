@@ -20,7 +20,9 @@ body{
   
 }
 /*CABEÇALHO*/
-
+span{
+    cursor: pointer;
+}
 .link{
     text-decoration: none;
     color: var(--branco);
@@ -59,6 +61,7 @@ body{
     border-radius: 10px;
     padding: 2px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.623);
+    cursor: pointer;
 }
 .cabecalho_pesquisa::placeholder{
     background: url(../imagem/Lupa.svg);
@@ -144,6 +147,8 @@ body{
     padding: 4px 0px 0px 10px;
 }
 .menu_lista-li{
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--branco);
     margin-top: 10px;
 }
 .menu_link-login{
@@ -187,7 +192,7 @@ body{
     left: 50px;
     width: 80%;
     transform: translate(35px,-07px);
-
+    cursor: pointer;
 }
 .carrinho_texto{
     display: flex;
@@ -263,9 +268,8 @@ body{
     display: flex;
     justify-content: space-around;
     overflow-x: scroll;
-    width: 100vw;
     margin-top: 20px;
-    padding-left:140px;
+    padding-left:70px;
 }
 .produto_banca{
     background-color: var(--verde-escuro);
