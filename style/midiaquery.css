@@ -80,8 +80,7 @@
 .produtos_caixa{
     display: flex;
     justify-content: space-around;
-    width: 200vw;
-    overflow-x: scroll;
+
     margin-top: 20px;
     padding-left:5px;
 }
@@ -204,8 +203,6 @@
 .produtos_caixa{
     display: flex;
     justify-content: space-around;
-    width: 200vw;
-    overflow-x: scroll;
     margin-top: 20px;
     padding-left:5px;
 }
@@ -331,8 +328,6 @@
 .produtos_caixa{
     display: flex;
     justify-content: space-around;
-    width: 200vw;
-    overflow-x: scroll;
     margin-top: 20px;
     padding-left:5px;
 }

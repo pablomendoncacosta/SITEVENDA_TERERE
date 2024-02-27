@@ -267,14 +267,13 @@ span{
 .produtos_caixa{
     display: flex;
     justify-content: space-around;
-    overflow-x: scroll;
     margin-top: 20px;
-    padding-left:70px;
 }
 .produto_banca{
     background-color: var(--verde-escuro);
     color: var(--branco);
     margin-right: 20px;
+    margin-left: 20px;
     padding: 10px;
     text-align: center;
     text-transform:uppercase;
