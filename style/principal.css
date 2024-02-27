@@ -135,7 +135,7 @@ body{
     position: absolute;
     top: 50px;
     left: 50px;
-    width: 40%;
+    width: 50%;
     height: 100%;
     transform: translate(-50px,-07px);
     transition: width 5s ease-in-out;
@@ -158,6 +158,16 @@ body{
 }
 .menu_link-atendimento{
     background: url("../imagem/atendimento.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    color: var(--branco);
+    font-weight: bold;
+    text-align: left;
+    padding-left: 25px;
+}
+.menu_link-pedidos{
+    background: url("../imagem/menu.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -243,4 +253,78 @@ body{
 .material-symbols-outlined{
     font-size: 1.2em;
     font-weight: bold;
+}
+/*BANCA_PRODUTOS*/
+
+.produtos{
+    margin: 10px 0;
+}
+.produtos_caixa{
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+    width: 100vw;
+    margin-top: 20px;
+    padding-left:140px;
+}
+.produto_banca{
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform:uppercase;
+}
+.produto_banca-imagem{
+    width: 80%;
+}
+.produto_banca-h1{
+    font-size: 1em;
+    font-weight: bold;
+}
+.produto_banca-p{
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+.produto_banca-button{
+    background-color: var(--verde-claro);
+    color: var(--verde-escuro);
+    padding: 4px;
+}
+
+/*footer*/  
+
+.rada_pe{
+    background: var(--marron);
+}
+
+.roda_pe-h1{
+    color: var(--branco);
+    text-align: center;
+    border-bottom: 1px solid var(--branco);
+}
+.roda_pe-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.rede_social{
+    display: grid;
+
+    border-right: 1px solid beige;
+    width: 50%;
+}
+.rede_social-P{
+    text-align: center;
+    color: var(--branco);
+    font-size: 1em;
+    font-weight: bold;
+}
+.rede_social-imagem{
+    width: 20%;
+    margin: auto;
+}
+.mapa{
+    margin: auto;
+    padding: 5px;
 }
